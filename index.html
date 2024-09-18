@@ -9,16 +9,11 @@
       <!-- Kameran -->
       <a-camera></a-camera>
 
-      <!-- Objekt för bat-markör (targetIndex: 0) -->
+      <!-- Objekt för pumpa-markör (targetIndex: 0) -->
       <a-entity mindar-image-target="targetIndex: 0">
         <a-text value="P" position="0 0 0" scale="2 2 2">
           <a-animation attribute="scale" to="3 3 3" direction="alternate" dur="1000" repeat="indefinite"></a-animation>
         </a-text>
-      </a-entity>
-
-      <!-- Objekt för pumpa-markör (targetIndex: 1) -->
-      <a-entity mindar-image-target="targetIndex: 1">
-        <a-image src="./assets/bilder/bat.jpg" position="0 0 0" scale="1 1 1"></a-image>
       </a-entity>
     </a-scene>
   </body>
